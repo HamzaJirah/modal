@@ -5,7 +5,7 @@ const modalBtn = document.querySelector('#modalBtn');
 //select close button
 const closeBtn = document.querySelector('#closeBtn');
 
-//listen for click event
+//listen for open click event
 modalBtn.addEventListener('click', openModal);
 
 //create open modal function
