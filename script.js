@@ -15,3 +15,5 @@ function openModal(){
   modal.style.display = 'block';
 }
 
+//create close modal function
+
