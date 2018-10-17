@@ -9,6 +9,7 @@ const closeBtn = document.getElementsByClassName('closeBtn')[0];
 modalBtn.addEventListener('click', openModal);
 //listen for close click event
 closeBtn.addEventListener('click', closeModal);
+//listen for click outside the closeBtn
 
 //create open modal function
 function openModal(){
