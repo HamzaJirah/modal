@@ -23,6 +23,8 @@ function closeModal(){
 }
 
 //create click outside function
-function clickOutside (){
-  
+function clickOutside (e){
+  if(e.target === modal){
+    modal.style.display = 'none';
+  }
 }
