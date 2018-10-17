@@ -4,3 +4,5 @@ const modal = document.querySelector('#simpleModal');
 const button = document.querySelector('#modalBtn');
 //select close button
 const closeBtn = document.querySelector('#closeBtn');
+
+//listen for click event
