@@ -8,6 +8,7 @@ const closeBtn = document.querySelector('#closeBtn');
 //listen for open click event
 modalBtn.addEventListener('click', openModal);
 //listen for close click event
+closeBtn.addEventListener('click', closeModal);
 //create open modal function
 function openModal(){
   modal.style.display = 'block';
