@@ -19,3 +19,7 @@ body {
 .button:hover {
   background: #333;
 }
+
+.modal {
+  display: none;
+}
