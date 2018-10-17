@@ -3,7 +3,7 @@ const modal = document.querySelector('#simpleModal');
 //select open modal button
 const modalBtn = document.querySelector('#modalBtn');
 //select close button
-const closeBtn = document.querySelector('#closeBtn');
+const closeBtn = document.getElementsByClassName('closeBtn')[0];
 
 //listen for open click event
 modalBtn.addEventListener('click', openModal);
