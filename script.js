@@ -6,4 +6,5 @@ const modalBtn = document.querySelector('#modalBtn');
 const closeBtn = document.querySelector('#closeBtn');
 
 //listen for click event
+modalBtn.addEventListener('click', openModal);
 
