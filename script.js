@@ -17,5 +17,5 @@ function openModal(){
 
 //create close modal function
 function closeModal(){
-  
+  modal.style.display = 'none';
 }
