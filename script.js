@@ -21,3 +21,6 @@ function openModal(){
 function closeModal(){
   modal.style.display = 'none';
 }
+
+//create click outside function
+
