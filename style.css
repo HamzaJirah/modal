@@ -49,4 +49,5 @@ body {
 .closeBtn:hover, .closeBtn:focus {
   color: #000;
   text-decoration: none;
+  cursor: pointer;
 }
