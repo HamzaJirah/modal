@@ -23,4 +23,6 @@ function closeModal(){
 }
 
 //create click outside function
-
+function clickOutside (){
+  
+}
